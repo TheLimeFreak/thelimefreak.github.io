@@ -1,0 +1,73 @@
+* {
+	
+}
+
+html {
+	background-color: white;
+}
+
+body {
+    margin: auto;
+	width: 100%;
+}
+
+.header img {
+    width: 100%
+}
+
+
+.menu {
+    position: sticky;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: magenta;
+}
+
+.menu div {
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+.menu div div {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.menu a {
+    width: 100%;
+    height: 100%;
+    padding: 12px 0px;
+    display: block;
+    
+    
+    background-color: rgb(50,50,50);
+    color: white;
+    
+    
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.menu a:hover {
+    background-color: rgb(100,100,100);
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdownbtn {
+    background-color: rgb(100,100,100);
+}
