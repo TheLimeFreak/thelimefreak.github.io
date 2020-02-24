@@ -72,6 +72,8 @@ body {
     
     height: 56px;
     width: 100%;
+    
+    position: absolute;
 
     background-color: rgb(50,50,50);
 }
