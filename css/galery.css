@@ -62,12 +62,6 @@ body {
     object-fit: cover;
 }
 
-.donotsteelmystuff {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-}
-
 /*-------------Menu-Bar-------------*/
 
 .topnav {
